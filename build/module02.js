@@ -13,7 +13,7 @@ let s;
 let empty = "";
 let abc = 'abc';
 //embeber expresiones
-//let firstName: string = "Dylan";
+let firstName = "Dylan";
 let sentence = `My name is ${firstName}.
     i am new to TypeScript.`;
 var ContractStatus;
@@ -75,7 +75,7 @@ var ContractStatus;
 //     stockPlan: true
 // }
 // console.log(newManager)
-//----------Tipos Literales-----------------
+//----------Tipos Literales----------------- string === "hola" pero "hola" != string
 // type testResult = "pass" | "fail" | "incomplete";
 // let myResult: testResult;
 // myResult = "incomplete";
