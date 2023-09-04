@@ -130,7 +130,7 @@ addNumbersOptional(1);    // Returns 1
  })
 
 //excercise divirtiendome con parametros
-let numberOption = (x: number, y:number, z?:number):number  {
+let numberOption =  (x: number, y:number, z?:number):number => {
     if((z === undefined)) {
         return x + y;
     } else {

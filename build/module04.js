@@ -92,3 +92,30 @@ displayMessage({
     sender: 'Dylan',
     text: 'Hoy he aprendido al desestructuración en TY'
 });
+//excercise divirtiendome con parametros
+let numberOption = (x, y, z) => {
+    if ((z === undefined)) {
+        return x + y;
+    }
+    else {
+        return x + y + z;
+    }
+};
+//Parámetros predeterminados
+let subtractThreeNumbers = (x, y, z = 100) => x - y - z;
+let addNumbers2 = (x, y) => x + y;
+let subtractNumbers = (x, y) => x - z;
+console.log(addNumbers2(1, 2));
+console.log(subtractNumbers(1, 2));
+let doCalculation = (operation) => {
+    if (operation === 'add') {
+        return addNumber2;
+    }
+    else {
+        return subtractNumbers;
+    }
+};
+let addNumbers3 = (x, y) => x + y;
+let addNumbers4 = (number1, number2) => number1 + number2;
+let addNumbers5 = (num1, num2) => num1 + num2;
+console.log(doCalculation('add'));
